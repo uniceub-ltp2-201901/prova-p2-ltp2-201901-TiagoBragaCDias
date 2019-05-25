@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PROVA 2</title>
+</head>
+<body>
+<table border="1">
+        <tr>
+            <th>URL SHORTENER</th>
+        </tr>
+    {% for item in dados %}
+        <tr>
+            <td><a href="">{{item[0]}} | {{item[1]}} | {{item[2]}}</a></td>
+        </tr>
+    {% endfor %}
+</table><br><br>
+</body>
+</html>
